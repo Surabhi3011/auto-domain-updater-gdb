@@ -36,9 +36,10 @@ This repository provides a simple, reusable workflow to **automatically update a
 
 1. Unzip `filegdbsample.zip` to get the `.gdb`
 2. Run `updatedomain.py` after updating the following parameters in the script:
-   - `gdb_path` → path to your `.gdb`
+   - `GDB_Path` → path to your `.gdb`
    - `source_fc`, `source_field`
-   - `target_domain_name`
+   - `target_domain`
+   - `Log_path`
 
 The script will:
 - Extract unique values from the source feature class
